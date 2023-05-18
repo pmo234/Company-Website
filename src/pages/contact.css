@@ -1,0 +1,152 @@
+.contact-container{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 800px;
+}
+
+.headline-contact-us{
+    font-size: 20px;
+    font-weight: 100;
+    color: gray;
+}
+
+
+.contact-logo{
+    width:1270px;
+    height: auto;
+    margin-top: 20px;
+    transform: scale(1.3);
+  position: absolute;
+  left: 900px;
+  top:60px;
+   z-index: -1;
+}
+
+.contact-form{
+    padding-left: 100px;
+    font-size: 11px;
+    width: 550px;
+}
+
+.contact-form-line-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-container {
+    width: 100%;
+   padding-right: 10px;
+  
+   margin-top: 10px;
+   margin-bottom: 10px;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f8f9fd;
+    height: 45px;
+  }
+
+.text-area-container {
+    width: 100%;
+    margin-right: 10px;
+    margin-top: 10px;
+   margin-bottom: 10px;
+  }
+
+  .text-area-container-message textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f8f9fd;
+    height: 140px;
+  }
+
+  .text-area-container-message {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-area-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .text-limit-info {
+    font-size: 10px;
+    color: gray;
+  }
+  
+  .text-area-container textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f8f9fd;
+  }
+
+  .radio {
+    
+    width: 16px;
+    height: 16px;
+    border-radius:80%;
+    border: 2px solid #999;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  .address-lines{
+    display: flex;
+  }
+
+  .address-info{
+    display:flex
+  }
+
+  .add-new-phone-number-button{
+    background-color: #eef7ff;
+    color: #8eb5d8;
+    border: none;
+    padding: 15px 2rem;
+    margin-top:10px ;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 11px;
+    width: 100%;
+    border-radius: 3px;
+  }
+
+  .submit-button{
+    background-color: #0173bc;
+    color: white;
+    border: none;
+    padding: 15px 2rem;
+    margin-top:10px ;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 11px;
+    width: 100%;
+    border-radius: 3px;
+  }
+
+  .contact-lorem{
+    font-size: 11px;
+    
+    color: rgb(119, 119, 119);
+  }
+
+  .optional{
+    font-size: 10px;
+    color:rgb(119, 119, 119);
+    font-style: italic;
+  }

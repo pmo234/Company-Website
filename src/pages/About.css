@@ -1,0 +1,22 @@
+.about-container {
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 50px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-image {
+    height: 350px;
+  }
+
+  .about-bold{
+    font-weight: bold;
+    font-size: 11px;
+  }
+  
